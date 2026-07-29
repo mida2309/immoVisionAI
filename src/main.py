@@ -1,6 +1,5 @@
-from camera import create_frames
+from project import Project
 
-create_frames(
-    "../photos/salon.jpg",
-    "../frames"
-)
+project = Project("../photos")
+
+project.generate()
